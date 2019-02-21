@@ -67,6 +67,7 @@ validation_generator = test_datagen.flow_from_directory(
 ##### BUILD MODEL ######
 print('Building MLP model...\n')
 
+# importar la xarxa
 model = create_model(IMG_SIZE, optimizer_param=OPTIMIZER, depth=DENSITY)
 
 print(model.summary())

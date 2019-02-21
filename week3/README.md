@@ -1,8 +1,12 @@
 # Readme
 
+## Project Goals
+    - MLP network to extract image features
+    - Classification using: Softmax layer or SVM
+    - Patch generation to consider spatial information
+    - Classification using the BoW framework compared to the end to end with Softmax
 
-- Link to PPT: https://docs.google.com/presentation/d/13L7prbJtoudD1hIB8VZoU0BzkD7SNShFYStlUGtm1_s/edit?usp=sharing
+## Other code included
 
 - Scripts to create experiments using configuration files
 - sbatch jobs to be run as an slurm array
-- Code separated into training and test for patched and non-patched approach 
